@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<link rel="icon" type="icon/jpg" href="img/logo.png">
+<html lang="es">
+     <header>
+
+
+		  
+    </header>
+<head>
+     <title>Juego de preguntas</title>
+
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.0/dist/sweetalert2.all.min.js"></script>
+
+ 
+
+     <link rel="stylesheet" href="css/index1.css">
+     <script src="js/base-de.preguntas1.js"></script>
+     <script defer src="js/index1.js"></script>
+
+     <meta property="og:site_name" content="">
+     <meta property="og:title" content="">
+     <meta property="og:description" content="">
+     <meta property="og:image" content="">
+     <link rel="icon" type="image/png" href="">
+</head>
+
+<body>
+     <div id="tablero-de-juego">
+
+          <div id="encabezado">
+
+               <a id="ayuda">
+
+               </a>
+
+               <br>
+
+               <span id="pregunta"></span>
+               <br>
+
+               <img id="imagen" src="" style="width: 90%;height: 200px;object-fit: contain;">
+          </div>
+
+          <div class="opcion" id="opcion-1" onclick="seleccionarOpción(0)">
+               Opción 1
+          </div>
+          <div class="opcion" id="opcion-2" onclick="seleccionarOpción(1)">
+               Opción 2
+          </div>
+          <div class="opcion" id="opcion-3" onclick="seleccionarOpción(2)">
+               Opción 3
+          </div>
+          <div class="opcion" id="opcion-4" onclick="seleccionarOpción(3)">
+               Opción 4
+          </div>
+
+     </div>
+
+
+
+</body>
+
+
+         <a class="nav-link" href="inicio.php">  </button>
+		  <script type="text/javascript">
+		  function alerta(){
+		  alert("Seguro que quieres salir? se perdera todo el progreso...")}
+		  </script>
+		
+		  
+		  <input  class="btn btn-outline-danger" type="button" onclick="alerta()" value="Volver al inicio">
+		  
+
+</html>
